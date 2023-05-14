@@ -1,0 +1,58 @@
+#root_id {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 750px;
+
+	.components-grid {
+		margin: 10px;
+		align-items: center;
+	}
+
+	.components-button {
+		margin: 20px 0;
+	}
+
+	label {
+		margin-right: 10px;
+	}
+
+	.components-placeholder {
+		background: #f1f1f1;
+	}
+
+	.components-checkbox-control {
+		margin: 20px 0;
+	}
+
+	.stas-plugin__main {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 750px;
+
+		.components-panel {
+			background: none;
+			border: none;
+		}
+
+		.components-panel__body {
+			background: #ffffff;
+			border: 1px solid #e2e4e7;
+			margin: 1rem 0;
+		}
+	}
+
+	.components-base-control__help {
+		margin-top: .5rem;
+	}
+
+	.components-panel__row {
+		> div {
+			flex-grow: 1;
+			margin-right: 1rem;
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+	}
+}
